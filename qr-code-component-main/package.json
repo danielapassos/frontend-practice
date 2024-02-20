@@ -1,0 +1,17 @@
+{
+  "name": "qr-code",
+  "version": "1.0.0",
+  "description": "QR Code preview",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Daniela Passos",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "nodemon": "^3.0.3"
+  }
+}

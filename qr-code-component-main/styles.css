@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    font-size: 62.5%;
+    --ff-primary: 'Roboto', sans-serif;
+    --text-color: #303030;
+    --bg-color: #D5E1EF;
+    --link-color: #006030;
+}
+  
+  body {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    max-height: 100%;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body * {
+    font-family: var(--ff-primary);
+  }
+
+#boxing{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#qr-code-card{
+    border-radius: 2rem;
+    height: 48rem; 
+    width: 32rem; 
+    box-sizing: border-box;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+#qr-code-card .card-img-top {
+    border-radius: 2rem;
+    width: 28rem; 
+    height: 28rem; 
+    align-self: center;
+    margin-top: 1.6rem;
+}
+
+#qr-code-card .card-body {
+    text-align: center;
+}
+
+#qr-code-card .card-body .card-title {
+    font-weight: 600;
+    font-size: 2.1rem;
+
+    margin-top: 5%;
+}
+
+#qr-code-card .card-body .card-text {
+    margin-top: 5%;
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+    padding: 0 1.4rem 0 1.4rem;
+}
+
+#attribution{
+    margin-top: 8rem;
+    text-align: center;
+    font-size: 1.2rem;
+
+    a{
+        text-decoration: none;
+        color: var(--link-color)
+    }
+}
