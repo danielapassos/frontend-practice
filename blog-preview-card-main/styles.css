@@ -50,7 +50,14 @@ body * {
     text-align: left;
 
     padding: 1.8rem 1rem 1rem 1rem;
+
+    transition: transform 0.3s ease-in-out; 
 }
+
+#blog-card:hover {
+    transform: translateY(-2rem) translateX(1rem);
+  }
+
 
 #blog-card .card-body #tag{
     background-color: var(--yellow);
