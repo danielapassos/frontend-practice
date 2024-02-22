@@ -5,11 +5,7 @@ This is a simple Blog preview card.
 ## Table of contents
   - [Links](#links)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ### Links
@@ -27,4 +23,4 @@ This is a simple Blog preview card.
 
 ## Author
 
-- Twitter - [@danizeres](https://www.twitter.com/danizeres)
+- X - [@danizeres](https://www.twitter.com/danizeres)
