@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+  :root {
+    font-size: 62.5%;
+    --ff-primary: "Figtree", sans-serif;
+    --ff-light: 500;
+    --ff-bold: 800;
+    --text-color: #303030;
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --gray: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+}
+  
+  body {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    max-height: 100%;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body * {
+    font-family: var(--ff-primary);
+}
+
+#boxing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#blog-card{
+    width: 36rem;
+    border: solid .2rem var(--black);
+    border-radius: 2rem;
+    box-sizing: border-box;
+    box-shadow: .6rem .6rem 0 black;
+    text-align: left;
+
+    padding: 1.8rem 1rem 1rem 1rem;
+}
+
+#blog-card .card-body #tag{
+    background-color: var(--yellow);
+    margin-bottom: 1.2rem;
+    font-weight: var(--ff-bold);
+    font-size: 1.4rem;
+}
+
+#blog-card .card-img-top{
+    width: 32rem;
+    border-radius: 2rem;
+    align-self: center;
+    margin-bottom: 1.2rem;
+    
+}
+
+
+#blog-card .card-body .card-title{
+    font-weight: var(--ff-bold);
+    margin-bottom: 1.2rem;
+
+}
+
+#blog-card .card-body .card-text{
+    font-weight: var(--ff-light);
+}
+
+#blog-card .author{
+    display: flex;
+    gap: .8rem;
+}
+
+#blog-card .author #author-avatar{
+    width: 3rem;
+    height: 3rem;
+}
+
+
+#blog-card .author .author-name{
+    font-weight: var(--ff-bold);
+}
+
+
+
+#attribution{
+    margin-top: 8rem;
+    text-align: center;
+    font-size: 1.2rem;
+
+    a{
+        text-decoration: none;
+        color: var(--link-color)
+    }
+}
