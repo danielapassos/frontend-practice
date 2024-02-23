@@ -1,0 +1,19 @@
+{
+  "name": "results-summary-component-main",
+  "version": "1.0.0",
+  "description": "results summary component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "frontend",
+    "design",
+    "engineering",
+    "design"
+  ],
+  "author": "Daniela Passos",
+  "license": "ISC",
+  "devDependencies": {
+  }
+}
